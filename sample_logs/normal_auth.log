@@ -1,0 +1,12 @@
+Oct 04 09:00:01 web-srv-01 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 04 09:15:22 web-srv-01 sshd[10201]: Accepted publickey for alice from 192.168.10.15 port 54120 ssh2: RSA SHA256:abc123xyz
+Oct 04 09:15:22 web-srv-01 sshd[10201]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 04 09:20:10 web-srv-01 sudo[10245]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 04 09:20:10 web-srv-01 sudo[10245]: pam_unix(sudo:session): session opened for user root by alice(uid=1000)
+Oct 04 09:20:12 web-srv-01 sudo[10245]: pam_unix(sudo:session): session closed for user root
+Oct 04 09:35:40 web-srv-01 sshd[10310]: Accepted password for bob from 192.168.10.22 port 49102 ssh2
+Oct 04 09:35:40 web-srv-01 sshd[10310]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 04 09:42:15 web-srv-01 sshd[10310]: pam_unix(sshd:session): session closed for user bob
+Oct 04 09:50:00 web-srv-01 sshd[10201]: pam_unix(sshd:session): session closed for user alice
+Oct 04 10:00:05 web-srv-01 CRON[10450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 04 10:00:06 web-srv-01 CRON[10450]: pam_unix(cron:session): session closed for user root

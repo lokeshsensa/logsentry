@@ -1,0 +1,14 @@
+Oct 04 20:00:01 bastion sshd[40101]: Failed password for invalid user guest from 192.168.1.200 port 55100 ssh2
+Oct 04 20:00:05 bastion sshd[40103]: Failed password for invalid user oracle from 192.168.1.200 port 55102 ssh2
+Oct 04 20:00:10 bastion sshd[40105]: Failed password for invalid user test from 192.168.1.200 port 55104 ssh2
+Oct 04 20:00:15 bastion sshd[40108]: Failed password for invalid user admin from 192.168.1.200 port 55106 ssh2
+Oct 04 20:00:20 bastion sshd[40112]: Failed password for lokesh from 192.168.1.200 port 55108 ssh2
+Oct 04 20:00:25 bastion sshd[40115]: Failed password for lokesh from 192.168.1.200 port 55110 ssh2
+Oct 04 20:00:30 bastion sshd[40118]: Failed password for lokesh from 192.168.1.200 port 55112 ssh2
+Oct 04 20:00:35 bastion sshd[40120]: Failed password for lokesh from 192.168.1.200 port 55114 ssh2
+Oct 04 20:00:40 bastion sshd[40123]: Failed password for lokesh from 192.168.1.200 port 55116 ssh2
+Oct 04 20:01:00 bastion sshd[40130]: Accepted password for lokesh from 192.168.1.200 port 55120 ssh2
+Oct 04 20:01:00 bastion sshd[40130]: pam_unix(sshd:session): session opened for user lokesh by (uid=0)
+Oct 04 20:01:15 bastion sudo[40140]:    lokesh : 3 incorrect password attempts ; TTY=pts/1 ; USER=root ; COMMAND=/bin/bash
+Oct 04 20:01:30 bastion sudo[40145]:    lokesh : TTY=pts/1 ; PWD=/home/lokesh ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Oct 04 20:01:45 bastion su[40150]: FAILED SU (to root) lokesh on pts/1
